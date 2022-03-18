@@ -91,3 +91,21 @@ img {
     background-color: #f2f2cd;
   }
 }
+
+/* Bonus */
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: inline-block;
+    font-size: 1em;
+  }
+
+  .container:nth-child(even) {
+    background-color: #f2f2cd;
+  }
+}
