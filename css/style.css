@@ -71,3 +71,23 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* MODIFICHE MEDIA QUERY */
+
+@media screen and (max-width: 420px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: inline-block;
+    font-size: 2em;
+  }
+
+  .container:nth-child(odd) {
+    background-color: #f2f2cd;
+  }
+}
